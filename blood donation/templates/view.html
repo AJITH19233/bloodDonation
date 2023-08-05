@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>View All</title>
+<link rel="stylesheet" href="../static/css/dono.css">
+
+<head>
+</head>
+
+<body>
+    <h1>Donor Details</h1>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>full_name</th>
+                <th>Date_of_birth</th>
+                <th>blood_Group</th>
+                <th>last_date_of_donation</th>
+                <th>City</th>
+                <th>PHONE_NUMBER</th>
+
+            </tr>
+        </thead>
+        {%for row in sqldata%}
+        <tr>
+            <td>{{row[1]}}</td>
+            <td>{{row[2]}}</td>
+            <td>{{row[3]}}</td>
+            <td>{{row[4]}}</td>
+            <td>{{row[7]}}</td>
+            <td>{{row[5]}}</td>
+
+        </tr>
+        {%endfor%}
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style2.css">
+</head>
+
+<body><div class="main">
+    <center>
+        <h1><b>REGISTRATION</b> </h1></center></div>
+        <br><br><br><br>
+        <div class="reg">
+            <br>
+            <br>
+            <br>
+            <center>
+        <form action='/regist' method="post">
+            <table>
+                <tr>
+                    <td>UID:</td>
+                    <td><input type="text" name="a9" /></td>
+                </tr>
+                <tr>
+                    <td>Full_Name:</td>
+                    <td><input type="text" name="a1" /></td>
+                </tr>
+                <tr>
+                    <td>Date of birth:</td>
+                    <td><input type="DATE" name="a2" />
+                </tr>
+                </td>
+                <tr>
+                    <td>Blood Group:</td>
+                    <td> <select name="a3">
+                            <option value="A+">A+</option>
+                            <option value="B+"> B+</option>
+                            <option value="B-"> B-</option>
+                            <option value="O+"> O+</option>
+                        </select>
+                </tr>
+                </td>
+                <tr>
+                    <td>Last Donation Date:</td>
+                    <td><input type="DATE" name="a4" />
+                </tr>
+                </td>
+                <tr>
+                    <td>contact no</td>
+                    <td><input type="text" name="a5">
+                </tr>
+                </td>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="a6"></textarea></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td> <select name="a7">
+                            <option value="PATHANAMTHITTA">Pathanamthitta</option>
+                            <option value="THIRUVANANTHAPURAM">Thiruvananthpuram</option>
+                            <option value="KOLLAM">Kollam</option>
+                            <option value="KOTTAYM">Kottayam</option>
+                            <option value="ERNAKULAM">Ernakulam</option>
+                        </select>
+                <tr>
+                    <td align="center" colspan="2"><input class="aa" type="submit" value="submit">
+                </tr>
+                </td>
+            </table>
+            {{msgdata}}
+        </form>
+    </center>
+    </div>
+</body>
+</html>

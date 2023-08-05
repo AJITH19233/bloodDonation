@@ -1,0 +1,60 @@
+body {
+    background-color: azure;
+}
+
+.first {
+    height: 100px;
+    width: 1750px;
+    background-color: red;
+    text-align: center;
+}
+
+.mainli {
+    display: inline;
+    padding: 10px;
+    padding-left: 15px;
+    text-align: left;
+    background-color: white;
+    width: 25;
+    vertical-align: middle;
+}
+
+center {
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+    padding-right: 16%;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.second {
+    padding-bottom: 30%;
+    height: 100px;
+    width: 1750px;
+    background-color: white;
+    background-image: url("../img/blood.jpg");
+    background-size: 70%;
+    text-align: center;
+
+}
+
+.mainul {
+    background: linear-gradient(to right, red, grey);
+    padding: 20px;
+}
+
+.mainlii {
+    background-color: white;
+    color: brown;
+    margin: 5px;
+    text-align: center;
+}
+.srk{
+    background-image: url(../img/blood.jpg);
+}
